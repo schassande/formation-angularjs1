@@ -1,1 +1,0 @@
-- use $http to get toso list from the backend server 
