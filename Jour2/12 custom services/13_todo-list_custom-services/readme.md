@@ -1,0 +1,2 @@
+- create an external service that store static configuration
+- create an external service that provide data to the controller

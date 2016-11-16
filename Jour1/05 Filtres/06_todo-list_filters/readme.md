@@ -1,0 +1,1 @@
+- tasks can be filtered using the 3 buttons in the footer
