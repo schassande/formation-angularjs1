@@ -1,0 +1,5 @@
+- use $resource to create a fully functional app where all changes are saved in the backend:
+- load list from backend
+- add new todo in backend
+- update existing todo in backend
+- delete todo in backend

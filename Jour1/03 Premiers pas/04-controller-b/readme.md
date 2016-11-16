@@ -1,0 +1,2 @@
+- Refactor the controller & view accorging to John Papa style guide
+- see https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md

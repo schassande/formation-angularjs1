@@ -1,0 +1,2 @@
+- Create an angular app 
+- Display something (string, numbers...) with angular templating `{{ ... }}`

@@ -1,0 +1,29 @@
+{
+  "todo": [
+    {
+      "id": "1",
+      "title": "write slides",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "create exercices",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "title": "invite students",
+      "completed": true
+    },
+    {
+      "id": "4",
+      "title": "book hotel",
+      "completed": true
+    },
+    {
+      "id": "5",
+      "title": "rent car",
+      "completed": true
+    }
+  ]
+}

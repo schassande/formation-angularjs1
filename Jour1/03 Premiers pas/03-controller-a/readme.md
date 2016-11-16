@@ -1,0 +1,3 @@
+- Use the controller to store the remaining order count in the `$scope`
+- Display the remaining order count to the user
+- Allow user to change the count with the plus & minus buttons

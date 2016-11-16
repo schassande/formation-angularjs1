@@ -1,0 +1,2 @@
+- Add an input asking for user name
+- Display the name using angular double binding
