@@ -1,0 +1,1 @@
+- Use angular-ui-router lib to navigate between the provided pages
