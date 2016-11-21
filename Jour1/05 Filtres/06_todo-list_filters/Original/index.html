@@ -36,14 +36,16 @@
 			<ul id="filters">
 				<li>
 					<!-- Si le filtre est actif appliquer la class 'selected' sur a -->
-					<a ng-class="{selected: vm.status === 'all'}" ng-click="vm.changeStatus('all')">Toutes</a>
+					<a ng-class="{selected: todoCtrl.status === 'all'}"
+					   ng-click="todoCtrl.changeStatus('all')">Toutes</a>
 				</li>
 				<li>
-					<a ng-class="{selected: vm.status === 'active'}" ng-click="vm.changeStatus('active')">Active</a>
+					<a ng-class="{selected: todoCtrl.status === 'active'}"
+					   ng-click="todoCtrl.changeStatus('active')">Active</a>
 				</li>
 				<li>
-					<a ng-class="{selected: vm.status === 'completed'}"
-					   ng-click="vm.changeStatus('completed')">Complète</a>
+					<a ng-class="{selected: todoCtrl.status === 'completed'}"
+					   ng-click="todoCtrl.changeStatus('completed')">Complète</a>
 				</li>
 			</ul>
 		</footer>
