@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	var app = angular.module('todoApp', ['ngResource']);
+	var app = angular.module('todoApp', []);
 
 	app.controller('todoController', TodoController);
 
