@@ -35,7 +35,11 @@ function Route1Controller() {
 }
 
 myapp.controller('route2Controller', Route2Controller);
-function Route2Controller() {
+function Route2Controller($state) {
 	var vm = this;
 	vm.things = ['this', 'is', 'controller', 'two'];
+
+	vm.goTo1 = function () {
+		$state.go('route1.list');
+	}
 }
