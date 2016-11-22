@@ -35,7 +35,6 @@
 
 		vm.createReservation = function () {
 			console.log('New reservation created!', vm.reservation);
-			vm.reservation = {};
 		}
 	}
 }());

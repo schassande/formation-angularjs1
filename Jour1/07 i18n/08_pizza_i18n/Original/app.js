@@ -5,7 +5,7 @@
 
 	app.config(configure);
 
-	configure.$inject = [''];
+	configure.$inject = [];
 	function configure() {
 
 	}
@@ -30,7 +30,6 @@
 
 		vm.createReservation = function () {
 			console.log('New reservation created!', vm.reservation);
-			vm.reservation = {};
 		}
 	}
 }());
