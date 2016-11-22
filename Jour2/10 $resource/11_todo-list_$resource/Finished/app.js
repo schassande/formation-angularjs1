@@ -30,9 +30,23 @@
 		};
 
 		vm.removeTodo = function (todo) {
-			todo.$remove(function () {
-				vm.loadTodos();
-			});
+			// Version avec Resource et $promise
+			Todo.remove(todo).$promise.then(loadTodos());
+
+			// Version avec Resource et callback
+			// Todo.remove(todo, function () {
+			// 	vm.loadTodos();
+			// });
+
+			// Version avec instance et callback
+			// todo.$remove().then(function () {
+			// 	vm.loadTodos();
+			// });
+
+			// Version avec instance et $promise
+			// todo.$remove(function () {
+			// 	vm.loadTodos();
+			// });
 		};
 
 		vm.updateTodo = function (todo, doNotLoad) {
@@ -90,11 +104,11 @@
 			}
 		};
 
-		vm.loadTodos = function () {
+		function loadTodos () {
 			vm.todos = Todo.query();
-		};
+		}
 
-		vm.loadTodos();
+		loadTodos();
 
 	}
 
