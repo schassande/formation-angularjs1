@@ -3,6 +3,13 @@
 
 	var app = angular.module('pizzaApp', []);
 
+	app.config(configure);
+
+	configure.$inject = [''];
+	function configure() {
+
+	}
+
 	app.controller('pizzaController', PizzaController);
 
 	PizzaController.$inject = [];
