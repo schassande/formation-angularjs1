@@ -28,7 +28,7 @@
 						<input id="task_{{$index}}" type="checkbox" class="toggle" ng-model="todo.completed"
 							   ng-click="todoCtrl.updateTodo(todo)"/>
 						<!-- Bouton permettant de supprimer une tâche -->
-						<button class="destroy" ng-click="todoCtrl.removeTodo(todo)"></button>
+						<button class="destroy" ng-click="todoCtrl.removeTodo(todo, $index)"></button>
 					</div>
 				</li>
 			</ul>
@@ -54,7 +54,7 @@
 	</header>
 </section>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-resource/angular-resource.js"></script>
 <script src="app.js"></script>
 </body>
