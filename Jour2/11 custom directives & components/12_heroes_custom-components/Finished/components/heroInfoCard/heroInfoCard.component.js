@@ -13,7 +13,6 @@
 
 	HeroInfoCardController.$inject = [];
 	function HeroInfoCardController() {
-
-
+		console.log('Controller created for hero', this.hero);
 	}
 }());
