@@ -8,5 +8,7 @@ var greeting1 = function (name) {
 
 var greeting2 = hi;
 
-// which version of the "greeting" function are functional  ?
-// First, second or both ?
+console.log(greeting1('Alice'));
+console.log(greeting2('Bob'));
+
+// what is the console output?

@@ -10,4 +10,4 @@ obj.myFunction = myFun;
 
 obj.myFunction();
 
-// what is 'this' when shown in the console output?
+// what is the console output?
